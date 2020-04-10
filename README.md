@@ -8,6 +8,6 @@ Simple Ubuntu Linux container with compilers and libraries to build code.
 
 ## Example run command
 
-`$ docker run -it --rm -v $(pwd):$(pwd) -w $(pwd) bash`
+`$ docker run -it --rm -v $(pwd):$(pwd) -w $(pwd) code-dev-container bash`
 
-Starts a container and setting the working directory to the current directory you are in when the docker run is issued.
+Starts a container with an interactive bash prompt.  The run options map your current working directory into the container.
